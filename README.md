@@ -49,12 +49,22 @@ Each member has a role that decides what they can do:
 
 The Android and iOS platform folders are not included in this repository. Create them with `flutter create .` before running, then allow camera, photo library, and notification permissions when the app asks.
 
+## First-time user guide
+
+1. **Open the app.** On a new install, the app shows a few introduction screens. Read them and continue to sign in.
+2. **Choose how to start.** The sign-in screen has two tabs:
+   - **Explore Demo** (selected by default): loads sample family data so you can look around right away. Use this to try the app before entering real information.
+   - **Setup Manually**: enter your own details to start a new profile.
+3. **Continue to family setup.** Tap **Continue to Family Setup**. Then either create a new family by giving it a name, or join an existing family with an invite code.
+4. **Add your first task.** Open the tasks screen and create a task. The form has a title, a description, a due date, an assignee, and a recurrence setting. Save it to add the task to the list.
+5. **Explore the rest of the app.** The sections below describe each feature and how to use it.
+
 ## How to use the app
 
 1. **First launch**: read the three intro cards and tap through to sign in.
 2. **Sign in**: enter your name and phone number.
 3. **Set up the family**: add the members who will share the care and assign each one a role.
-4. **Add tasks**: create a task, set a date and time, and optionally a reminder.
+4. **Add tasks**: create a task with a title, description, due date, and assignee.
 5. **Track medicines and appointments**: add medicines, request refills, and book appointments.
 6. **Save health records**: add vitals and notes manually, or scan a prescription or report with the camera or gallery and check the text before saving.
 7. **Follow activity**: open the timeline to see what has been done and by whom.
