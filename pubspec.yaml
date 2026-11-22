@@ -1,5 +1,5 @@
 name: health_and_saftey_care
-description: "A new Flutter project."
+description: "Ace Builders Hackathon 2026"
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -51,6 +51,7 @@ dependencies:
   firebase_core: ^5.2.0
   cloud_firestore: ^7.2.0
   firebase_auth: ^7.1.0
+  flutter_dotenv: ^5.2.1
 
 dev_dependencies:
   flutter_test:
@@ -78,6 +79,10 @@ flutter:
 
   # Generates lib/l10n/app_localizations.dart from the .arb files (see l10n.yaml).
   generate: true
+
+  # Bundles the .env file so flutter_dotenv can read Firebase configuration.
+  assets:
+    - .env
 
   # To add assets to your application, add an assets section, like this:
   # assets:
