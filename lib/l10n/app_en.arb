@@ -1,0 +1,342 @@
+{
+  "@@locale": "en",
+  "appTitle": "Family Care Hub",
+  "@appTitle": {
+    "description": "Application title"
+  },
+  "homeTitle": "Appointments",
+  "homeEmptyState": "No appointments booked yet.",
+  "bookAppointmentFab": "Book appointment",
+  "settingsTooltip": "Settings",
+  "settingsTitle": "Settings",
+  "settingsAppearanceSection": "Appearance",
+  "settingsThemeLabel": "Theme",
+  "settingsThemeLight": "Light",
+  "settingsThemeDark": "Dark",
+  "settingsThemeSystem": "System",
+  "settingsLanguageSection": "Language",
+  "settingsLanguageLabel": "Language",
+  "languageEnglish": "English",
+  "languageHindi": "हिन्दी",
+  "settingsConsentSection": "Consent",
+  "settingsConsentHint": "Turn off any choice to withdraw your consent.",
+  "settingsConsentNotSignedIn": "Sign in to manage consent.",
+  "analyticsToggleTitle": "Share usage analytics",
+  "analyticsToggleBody": "Keep a local count of actions such as completed tasks. No names, phone numbers or health details are stored, and nothing is sent anywhere.",
+  "onboardingNext": "Next",
+  "onboardingBack": "Back",
+  "onboardingPage1Title": "What this app stores",
+  "onboardingPage1Body": "Family care records, tasks and appointments are stored on this phone. You choose what you agree to on the next screen.",
+  "onboardingPage2Title": "Your choices",
+  "onboardingPage2Body": "Nothing is ticked by default. You can change these any time in Settings.",
+  "onboardingPage3Title": "Sign in",
+  "consentDataStorage": "Store my family's care data on this phone",
+  "consentOcrProcessing": "Read text from photos of documents (OCR)",
+  "consentWhatsappSharing": "Share summaries through WhatsApp",
+  "signInNameLabel": "Your name",
+  "signInPhoneLabel": "Phone number",
+  "signInSubmit": "Continue",
+  "signInNameRequired": "Please enter your name.",
+  "signInPhoneRequired": "Please enter a phone number.",
+  "signInStubNotice": "Sign-in is local on this device for now. No code is sent.",
+  "familySetupTitle": "Create your family space",
+  "familyNameLabel": "Family or care recipient name",
+  "familyCreateSubmit": "Create family space",
+  "familyInviteTitle": "Invite code",
+  "familyInviteBody": "Share this code with family members so they can join.",
+  "familySetupContinue": "Continue to app",
+  "joinWithCodeTitle": "Join with a code",
+  "joinCodeLabel": "6-character invite code",
+  "joinCodeButton": "Join family",
+  "joinCodeNotFound": "No family matches that code. Check it and try again.",
+  "navHome": "Home",
+  "navMembers": "Members",
+  "navRecords": "Records",
+  "navTasks": "Tasks",
+  "navTimeline": "Timeline",
+  "dashboardPendingTasks": "Pending tasks by person",
+  "dashboardNoPendingTasks": "No pending tasks.",
+  "dashboardOverdue": "Overdue",
+  "dashboardNoOverdue": "Nothing overdue.",
+  "dashboardAppointments": "Appointments",
+  "dashboardRecentActivity": "Recent activity",
+  "dashboardNoActivity": "No activity yet.",
+  "dashboardUnknownMember": "Unknown member",
+  "dashboardPendingOverdueTitle": "Pending and overdue",
+  "dashboardOverdueCount": "Overdue: {count}",
+  "@dashboardOverdueCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "dashboardMemberPendingCount": "{name}: {count} pending",
+  "@dashboardMemberPendingCount": {
+    "placeholders": {
+      "name": {"type": "String"},
+      "count": {"type": "int"}
+    }
+  },
+  "dashboardPendingEmptyAction": "No pending tasks. Tap here to open Tasks and add one.",
+  "activityFamilyCreated": "Created the family space",
+  "activityMemberRoleChanged": "Changed a member's role",
+  "activityMemberJoined": "A member joined the family",
+  "activityMemberRemoved": "Removed a member",
+  "activityRecordCreated": "Added a record",
+  "activityRecordUpdated": "Updated a record",
+  "activityRecordDeleted": "Deleted a record",
+  "activityTaskCreated": "Added a task",
+  "activityTaskUpdated": "Updated a task",
+  "activityTaskCompleted": "Completed a task",
+  "activityTaskDeleted": "Deleted a task",
+  "taskStatusTodo": "To do",
+  "taskStatusDone": "Done",
+  "taskStatusSkipped": "Skipped",
+  "taskStatusOverdue": "Overdue",
+  "recurrenceNone": "Does not repeat",
+  "recurrenceDaily": "Daily",
+  "recurrenceWeekly": "Weekly",
+  "recurrenceMonthly": "Monthly",
+  "roleAdmin": "Admin",
+  "roleCaregiver": "Caregiver",
+  "roleViewer": "Viewer",
+  "roleDelegate": "Delegate",
+  "memberYouSuffix": "(you)",
+  "membersTitle": "Family members",
+  "membersEmpty": "No members yet.",
+  "memberChangeRole": "Change role",
+  "memberChangeRoleTitle": "Choose a role",
+  "memberRemove": "Remove",
+  "memberRemoveConfirm": "Remove this member? They lose access straight away.",
+  "membersMenuTooltip": "More",
+  "actionDeniedMessage": "You do not have permission for that.",
+  "cancelAction": "Cancel",
+  "saveAction": "Save",
+  "fieldRequired": "This field is required.",
+  "recordsTitle": "Records",
+  "recordsSearchHint": "Search by title, tag or date (YYYY-MM-DD)",
+  "recordsEmpty": "No records yet.",
+  "recordsNoMatch": "No records match your search.",
+  "recordAddFab": "Add record",
+  "recordNewTitle": "New record",
+  "recordTitleLabel": "Title",
+  "recordTypeLabel": "Type (for example prescription or lab report)",
+  "recordDateLabel": "Date",
+  "recordTagsLabel": "Tags, separated by commas",
+  "recordCaregiversOnly": "Caregivers only (hidden from viewers)",
+  "recordEditTitle": "Edit record",
+  "recordDeleteAction": "Delete",
+  "recordDeleteConfirmTitle": "Delete this record?",
+  "recordDeleteConfirmBody": "The record will be removed for everyone in the family. This cannot be undone.",
+  "tasksTitle": "Tasks",
+  "tasksEmpty": "No tasks yet.",
+  "taskAddFab": "Add task",
+  "taskNewTitle": "New task",
+  "taskEditTitle": "Edit task",
+  "taskEditAction": "Edit",
+  "taskTitleLabel": "Title",
+  "taskDescriptionLabel": "Description (optional)",
+  "taskDueLabel": "Due",
+  "taskAssigneeLabel": "Assign to",
+  "taskRecurrenceLabel": "Repeats",
+  "taskCompleteAction": "Complete",
+  "taskSnoozeAction": "Snooze 1 hour",
+  "taskReassignAction": "Reassign",
+  "taskReassignTitle": "Assign to",
+  "taskSkipAction": "Mark skipped",
+  "taskDeleteAction": "Delete",
+  "taskDeleteConfirmTitle": "Delete this task?",
+  "taskDeleteConfirmBody": "This task will be removed for everyone in the family. This cannot be undone.",
+  "taskCompletedLabel": "Completed by",
+  "taskUnassigned": "Unassigned",
+  "timelineTitle": "Timeline",
+  "timelineFilterType": "Type",
+  "timelineFilterPerson": "Person",
+  "timelineFilterAll": "All",
+  "timelineTypeAppointment": "Appointments",
+  "timelineTypeRecord": "Records",
+  "timelineTypeTask": "Completed tasks",
+  "timelineEmpty": "Nothing here yet.",
+  "medicinesTitle": "Medicines",
+  "medicinesPrescriptionNote": "Follow your doctor's prescription for the schedule. Medicine times and doses come from the prescription, not from this app.",
+  "medicinesEmpty": "No medicines yet.",
+  "medicineAddFab": "Add medicine",
+  "medicineNewTitle": "New medicine",
+  "medicineNameLabel": "Name",
+  "medicineScheduleLabel": "Schedule note (optional)",
+  "medicineQuantityLabel": "Quantity on hand",
+  "medicineDailyUsageLabel": "Used per day",
+  "medicineRefillThresholdLabel": "Refill warning (days left)",
+  "medicineNumberInvalid": "Enter a whole number, 0 or more.",
+  "medicineUsageNotSet": "Usage not set",
+  "medicineDaysRemaining": "{days} days left",
+  "@medicineDaysRemaining": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "medicineLowStock": "Low stock",
+  "medicineAddRefillTask": "Add refill task",
+  "refillTaskTitle": "Refill {name}",
+  "@refillTaskTitle": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "refillTaskAdded": "Refill task added.",
+  "emergencyTitle": "Emergency info",
+  "emergencyBloodGroupLabel": "Blood group",
+  "emergencyAllergiesLabel": "Allergies",
+  "emergencyConditionsLabel": "Medical conditions",
+  "emergencyContactLabel": "Emergency contact",
+  "emergencyContactNameLabel": "Contact name",
+  "emergencyContactPhoneLabel": "Contact phone",
+  "emergencyHospitalLabel": "Preferred hospital",
+  "emergencyDoctorLabel": "Doctor contact",
+  "emergencyNotSet": "Not set",
+  "emergencyCall112": "Call 112",
+  "emergencyCallNote": "Dial 112 on your phone. This app cannot make calls.",
+  "emergencyDisclaimer": "This app does not replace emergency services. In an emergency, call 112 first.",
+  "emergencyEditAction": "Edit",
+  "emergencyEditTitle": "Edit emergency info",
+  "closeAction": "Close",
+  "navMedicines": "Medicines",
+  "dueSoonLabel": "Due soon",
+  "taskReminderBody": "Due in 30 minutes",
+  "careGlanceTitle": "Care at a glance",
+  "careGlanceSummary": "{done} of {total} tasks done",
+  "@careGlanceSummary": {
+    "placeholders": {
+      "done": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "careGlanceWeekTitle": "Completed in the last 7 days",
+  "careGlanceWeekChartLabel": "Bar chart of tasks completed per day over the last 7 days",
+  "careGlanceWeekSummary": "{count} tasks completed in the last 7 days",
+  "@careGlanceWeekSummary": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "careGlanceEmpty": "No tasks yet, so there is nothing to chart.",
+  "careGlanceChartLabel": "Task status: {todo} to do, {done} done, {skipped} skipped, {overdue} overdue",
+  "@careGlanceChartLabel": {
+    "placeholders": {
+      "todo": {"type": "int"},
+      "done": {"type": "int"},
+      "skipped": {"type": "int"},
+      "overdue": {"type": "int"}
+    }
+  },
+  "summaryTitle": "Care summary",
+  "summaryShareAction": "Share summary",
+  "summaryCopyAction": "Copy",
+  "summaryCopiedMessage": "Summary copied. Paste it in WhatsApp to send it.",
+  "summaryExcludesNote": "Attachments and Caregivers-only records are left out. You send this yourself in WhatsApp. The app does not post for you.",
+  "summaryRecipientLine": "Care recipient: {name}",
+  "@summaryRecipientLine": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "summaryPeriodLine": "Period: {from} to {to}",
+  "@summaryPeriodLine": {
+    "placeholders": {
+      "from": {"type": "String"},
+      "to": {"type": "String"}
+    }
+  },
+  "summarySectionAppointments": "Upcoming appointments",
+  "summaryAppointmentLine": "{when} - {doctor}",
+  "@summaryAppointmentLine": {
+    "placeholders": {
+      "when": {"type": "String"},
+      "doctor": {"type": "String"}
+    }
+  },
+  "summarySectionTasks": "Pending and overdue tasks",
+  "summaryTaskLine": "{name}: {title} (due {due})",
+  "@summaryTaskLine": {
+    "placeholders": {
+      "name": {"type": "String"},
+      "title": {"type": "String"},
+      "due": {"type": "String"}
+    }
+  },
+  "summaryTaskOverdueLine": "{name}: {title} (overdue, due {due})",
+  "@summaryTaskOverdueLine": {
+    "placeholders": {
+      "name": {"type": "String"},
+      "title": {"type": "String"},
+      "due": {"type": "String"}
+    }
+  },
+  "summarySectionMedicines": "Medicines to refill",
+  "summaryMedicineLine": "{name}: {status}",
+  "@summaryMedicineLine": {
+    "placeholders": {
+      "name": {"type": "String"},
+      "status": {"type": "String"}
+    }
+  },
+  "summarySectionRecords": "Recent records",
+  "summaryRecordLine": "{date} {title}",
+  "@summaryRecordLine": {
+    "placeholders": {
+      "date": {"type": "String"},
+      "title": {"type": "String"}
+    }
+  },
+  "summarySectionActivity": "Recent activity",
+  "summaryActivityLine": "{when} {action} ({name})",
+  "@summaryActivityLine": {
+    "placeholders": {
+      "when": {"type": "String"},
+      "action": {"type": "String"},
+      "name": {"type": "String"}
+    }
+  },
+  "summaryNone": "None",
+  "genericError": "Something went wrong. Please try again.",
+  "ocrTitle": "Scan a record",
+  "ocrIntro": "Take a photo of a prescription or report, or pick one from your gallery. The text is read on this device.",
+  "ocrCamera": "Camera",
+  "ocrGallery": "Gallery",
+  "ocrProcessing": "Reading text...",
+  "ocrNeedsConsent": "Reading text from photos needs your consent. Turn on 'Read text from photos of documents (OCR)' in Settings, then try again.",
+  "ocrFailed": "We could not read any text from this image. Try a clearer photo, or enter the record yourself.",
+  "ocrEnterManually": "Enter manually",
+  "ocrReviewTitle": "Check scanned text",
+  "ocrTextLabel": "Text read from the image (you can edit it)",
+  "ocrSuggestedDates": "Dates found in the text (tap one to use it)",
+  "ocrSave": "Save record",
+  "ocrSaved": "Record saved from scan",
+  "glanceChartToggle": "Show as chart",
+  "glanceTableToggle": "Show as table",
+  "glanceTableMedicine": "Medicine",
+  "glanceTableDaysLeft": "Days left",
+  "glanceTableRefillAt": "Refill at (days)",
+  "glanceMedicinesTitle": "Medicine stock",
+  "glanceMedicinesSummary": "{low} of {total} medicines need a refill",
+  "@glanceMedicinesSummary": {
+    "placeholders": {
+      "low": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "glanceMedicinesChartLabel": "Days of stock left for {total} medicines, {low} below refill level",
+  "@glanceMedicinesChartLabel": {
+    "placeholders": {
+      "total": {"type": "int"},
+      "low": {"type": "int"}
+    }
+  },
+  "glanceMedicineRefill": "Refill",
+  "glanceMedicineMarkerLabel": "The thin line marks the refill level for each medicine.",
+  "glanceNoMedicineData": "{count} medicines have no daily usage set, so they are not charted.",
+  "@glanceNoMedicineData": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  }
+}

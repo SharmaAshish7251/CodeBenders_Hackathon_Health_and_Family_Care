@@ -1,0 +1,339 @@
+{
+  "@@locale": "hi",
+  "appTitle": "परिवार देखभाल केंद्र",
+  "homeTitle": "अपॉइंटमेंट",
+  "homeEmptyState": "अभी तक कोई अपॉइंटमेंट बुक नहीं हुई है।",
+  "bookAppointmentFab": "अपॉइंटमेंट बुक करें",
+  "settingsTooltip": "सेटिंग्स",
+  "settingsTitle": "सेटिंग्स",
+  "settingsAppearanceSection": "दिखावट",
+  "settingsThemeLabel": "थीम",
+  "settingsThemeLight": "हल्की",
+  "settingsThemeDark": "गहरी",
+  "settingsThemeSystem": "सिस्टम",
+  "settingsLanguageSection": "भाषा",
+  "settingsLanguageLabel": "भाषा",
+  "languageEnglish": "English",
+  "languageHindi": "हिन्दी",
+  "settingsConsentSection": "सहमति",
+  "settingsConsentHint": "अपनी सहमति वापस लेने के लिए कोई भी विकल्प बंद करें।",
+  "settingsConsentNotSignedIn": "सहमति प्रबंधित करने के लिए साइन इन करें।",
+  "analyticsToggleTitle": "उपयोग विश्लेषण साझा करें",
+  "analyticsToggleBody": "पूरे हुए कार्य जैसी गतिविधियों की स्थानीय गिनती रखें। कोई नाम, फ़ोन नंबर या स्वास्थ्य जानकारी संग्रहीत नहीं होती, और कुछ भी कहीं नहीं भेजा जाता।",
+  "onboardingNext": "आगे",
+  "onboardingBack": "पीछे",
+  "onboardingPage1Title": "यह ऐप क्या संग्रहित करता है",
+  "onboardingPage1Body": "परिवार की देखभाल के रिकॉर्ड, कार्य और अपॉइंटमेंट इस फ़ोन में संग्रहित होते हैं। अगली स्क्रीन पर आप चुनते हैं कि आप किससे सहमत हैं।",
+  "onboardingPage2Title": "आपकी पसंद",
+  "onboardingPage2Body": "डिफ़ॉल्ट रूप से कुछ भी चिन्हित नहीं है। आप इन्हें कभी भी सेटिंग्स में बदल सकते हैं।",
+  "onboardingPage3Title": "साइन इन",
+  "consentDataStorage": "मेरे परिवार का देखभाल डेटा इस फ़ोन में संग्रहित करें",
+  "consentOcrProcessing": "दस्तावेज़ों की तस्वीरों से लिखा हुआ पाठ पढ़ें (OCR)",
+  "consentWhatsappSharing": "व्हाट्सऐप के ज़रिए सारांश साझा करें",
+  "signInNameLabel": "आपका नाम",
+  "signInPhoneLabel": "फ़ोन नंबर",
+  "signInSubmit": "जारी रखें",
+  "signInNameRequired": "कृपया अपना नाम लिखें।",
+  "signInPhoneRequired": "कृपया फ़ोन नंबर लिखें।",
+  "signInStubNotice": "अभी साइन-इन इस डिवाइस पर स्थानीय है। कोई कोड नहीं भेजा जाता।",
+  "familySetupTitle": "अपनी परिवार जगह बनाएँ",
+  "familyNameLabel": "परिवार या देखभाल प्राप्तकर्ता का नाम",
+  "familyCreateSubmit": "परिवार जगह बनाएँ",
+  "familyInviteTitle": "आमंत्रण कोड",
+  "familyInviteBody": "यह कोड परिवार के सदस्यों के साथ साझा करें ताकि वे जुड़ सकें।",
+  "familySetupContinue": "ऐप पर जाएँ",
+  "joinWithCodeTitle": "कोड से जुड़ें",
+  "joinCodeLabel": "6 अक्षरों का आमंत्रण कोड",
+  "joinCodeButton": "परिवार से जुड़ें",
+  "joinCodeNotFound": "इस कोड का कोई परिवार नहीं मिला। जाँचकर फिर से कोशिश करें।",
+  "navHome": "होम",
+  "navMembers": "सदस्य",
+  "navRecords": "रिकॉर्ड",
+  "navTasks": "कार्य",
+  "navTimeline": "टाइमलाइन",
+  "dashboardPendingTasks": "व्यक्ति के अनुसार लंबित कार्य",
+  "dashboardNoPendingTasks": "कोई लंबित कार्य नहीं।",
+  "dashboardOverdue": "समय सीमा पार",
+  "dashboardNoOverdue": "कुछ भी समय सीमा पार नहीं है।",
+  "dashboardAppointments": "अपॉइंटमेंट",
+  "dashboardRecentActivity": "हाल की गतिविधि",
+  "dashboardNoActivity": "अभी कोई गतिविधि नहीं।",
+  "dashboardUnknownMember": "अज्ञात सदस्य",
+  "dashboardPendingOverdueTitle": "लंबित और समय सीमा पार",
+  "dashboardOverdueCount": "समय सीमा पार: {count}",
+  "@dashboardOverdueCount": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "dashboardMemberPendingCount": "{name}: {count} लंबित",
+  "@dashboardMemberPendingCount": {
+    "placeholders": {
+      "name": {"type": "String"},
+      "count": {"type": "int"}
+    }
+  },
+  "dashboardPendingEmptyAction": "कोई लंबित कार्य नहीं। कार्य देखने और जोड़ने के लिए यहाँ टैप करें।",
+  "activityFamilyCreated": "परिवार जगह बनाई",
+  "activityMemberRoleChanged": "किसी सदस्य की भूमिका बदली",
+  "activityMemberJoined": "एक सदस्य परिवार से जुड़ा",
+  "activityMemberRemoved": "एक सदस्य हटाया",
+  "activityRecordCreated": "एक रिकॉर्ड जोड़ा",
+  "activityRecordUpdated": "एक रिकॉर्ड अपडेट किया",
+  "activityRecordDeleted": "एक रिकॉर्ड हटाया",
+  "activityTaskCreated": "एक कार्य जोड़ा",
+  "activityTaskUpdated": "एक कार्य अपडेट किया",
+  "activityTaskCompleted": "एक कार्य पूरा किया",
+  "activityTaskDeleted": "एक कार्य हटाया",
+  "taskStatusTodo": "करना है",
+  "taskStatusDone": "हो गया",
+  "taskStatusSkipped": "छोड़ा गया",
+  "taskStatusOverdue": "समय सीमा पार",
+  "recurrenceNone": "दोहराया नहीं जाता",
+  "recurrenceDaily": "रोज़ाना",
+  "recurrenceWeekly": "साप्ताहिक",
+  "recurrenceMonthly": "मासिक",
+  "roleAdmin": "एडमिन",
+  "roleCaregiver": "देखभालकर्ता",
+  "roleViewer": "दर्शक",
+  "roleDelegate": "प्रतिनिधि",
+  "memberYouSuffix": "(आप)",
+  "membersTitle": "परिवार के सदस्य",
+  "membersEmpty": "अभी कोई सदस्य नहीं है।",
+  "memberChangeRole": "भूमिका बदलें",
+  "memberChangeRoleTitle": "भूमिका चुनें",
+  "memberRemove": "हटाएँ",
+  "memberRemoveConfirm": "इस सदस्य को हटाएँ? उनकी पहुँच तुरंत खत्म हो जाएगी।",
+  "membersMenuTooltip": "और",
+  "actionDeniedMessage": "इसकी अनुमति आपके पास नहीं है।",
+  "cancelAction": "रद्द करें",
+  "saveAction": "सहेजें",
+  "fieldRequired": "यह फ़ील्ड ज़रूरी है।",
+  "recordsTitle": "रिकॉर्ड",
+  "recordsSearchHint": "शीर्षक, टैग या तारीख (YYYY-MM-DD) से खोजें",
+  "recordsEmpty": "अभी कोई रिकॉर्ड नहीं है।",
+  "recordsNoMatch": "आपकी खोज से कोई रिकॉर्ड नहीं मिला।",
+  "recordAddFab": "रिकॉर्ड जोड़ें",
+  "recordNewTitle": "नया रिकॉर्ड",
+  "recordTitleLabel": "शीर्षक",
+  "recordTypeLabel": "प्रकार (जैसे पर्चा या लैब रिपोर्ट)",
+  "recordDateLabel": "तारीख",
+  "recordTagsLabel": "टैग, कॉमा से अलग करके लिखें",
+  "recordCaregiversOnly": "केवल देखभालकर्ता (दर्शकों से छिपा)",
+  "recordEditTitle": "रिकॉर्ड बदलें",
+  "recordDeleteAction": "हटाएँ",
+  "recordDeleteConfirmTitle": "यह रिकॉर्ड हटाएँ?",
+  "recordDeleteConfirmBody": "यह रिकॉर्ड परिवार के सभी लोगों के लिए हट जाएगा। इसे वापस नहीं लाया जा सकेगा।",
+  "tasksTitle": "कार्य",
+  "tasksEmpty": "अभी कोई कार्य नहीं है।",
+  "taskAddFab": "कार्य जोड़ें",
+  "taskNewTitle": "नया कार्य",
+  "taskEditTitle": "कार्य बदलें",
+  "taskEditAction": "संपादित करें",
+  "taskTitleLabel": "शीर्षक",
+  "taskDescriptionLabel": "विवरण (वैकल्पिक)",
+  "taskDueLabel": "समय सीमा",
+  "taskAssigneeLabel": "किसे सौंपें",
+  "taskRecurrenceLabel": "दोहराव",
+  "taskCompleteAction": "पूरा करें",
+  "taskSnoozeAction": "1 घंटे के लिए टालें",
+  "taskReassignAction": "फिर से सौंपें",
+  "taskReassignTitle": "किसे सौंपें",
+  "taskSkipAction": "छोड़ा गया चिन्हित करें",
+  "taskDeleteAction": "हटाएँ",
+  "taskDeleteConfirmTitle": "यह कार्य हटाएँ?",
+  "taskDeleteConfirmBody": "यह कार्य परिवार के सभी लोगों के लिए हट जाएगा। इसे वापस नहीं लाया जा सकेगा।",
+  "taskCompletedLabel": "पूरा किया",
+  "taskUnassigned": "किसी को नहीं सौंपा",
+  "timelineTitle": "टाइमलाइन",
+  "timelineFilterType": "प्रकार",
+  "timelineFilterPerson": "व्यक्ति",
+  "timelineFilterAll": "सभी",
+  "timelineTypeAppointment": "अपॉइंटमेंट",
+  "timelineTypeRecord": "रिकॉर्ड",
+  "timelineTypeTask": "पूरे किए गए कार्य",
+  "timelineEmpty": "यहाँ अभी कुछ नहीं है।",
+  "medicinesTitle": "दवाइयाँ",
+  "medicinesPrescriptionNote": "दवा का समय और खुराक डॉक्टर के पर्चे के अनुसार ही रखें, इस ऐप के अनुसार नहीं।",
+  "medicinesEmpty": "अभी कोई दवा नहीं है।",
+  "medicineAddFab": "दवा जोड़ें",
+  "medicineNewTitle": "नई दवा",
+  "medicineNameLabel": "नाम",
+  "medicineScheduleLabel": "समय-सारणी नोट (वैकल्पिक)",
+  "medicineQuantityLabel": "हाथ में मात्रा",
+  "medicineDailyUsageLabel": "प्रतिदिन कितनी लगती है",
+  "medicineRefillThresholdLabel": "रिफ़िल चेतावनी (बचे दिन)",
+  "medicineNumberInvalid": "0 या उससे बड़ी पूर्ण संख्या लिखें।",
+  "medicineUsageNotSet": "उपयोग सेट नहीं है",
+  "medicineDaysRemaining": "{days} दिन बाकी",
+  "@medicineDaysRemaining": {
+    "placeholders": {
+      "days": {"type": "int"}
+    }
+  },
+  "medicineLowStock": "स्टॉक कम है",
+  "medicineAddRefillTask": "रिफ़िल कार्य जोड़ें",
+  "refillTaskTitle": "{name} की रिफ़िल लाएँ",
+  "@refillTaskTitle": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "refillTaskAdded": "रिफ़िल कार्य जोड़ा गया।",
+  "emergencyTitle": "आपातकालीन जानकारी",
+  "emergencyBloodGroupLabel": "ब्लड ग्रुप",
+  "emergencyAllergiesLabel": "एलर्जी",
+  "emergencyConditionsLabel": "स्वास्थ्य स्थितियाँ",
+  "emergencyContactLabel": "आपातकालीन संपर्क",
+  "emergencyContactNameLabel": "संपर्क का नाम",
+  "emergencyContactPhoneLabel": "संपर्क का फ़ोन",
+  "emergencyHospitalLabel": "पसंदीदा अस्पताल",
+  "emergencyDoctorLabel": "डॉक्टर का संपर्क",
+  "emergencyNotSet": "सेट नहीं है",
+  "emergencyCall112": "112 पर कॉल करें",
+  "emergencyCallNote": "अपने फ़ोन से 112 डायल करें। यह ऐप कॉल नहीं कर सकता।",
+  "emergencyDisclaimer": "यह ऐप आपातकालीन सेवाओं का विकल्प नहीं है। आपात स्थिति में पहले 112 पर कॉल करें।",
+  "emergencyEditAction": "संपादित करें",
+  "emergencyEditTitle": "आपातकालीन जानकारी बदलें",
+  "closeAction": "बंद करें",
+  "navMedicines": "दवाइयाँ",
+  "dueSoonLabel": "जल्द देय",
+  "taskReminderBody": "30 मिनट में देय है",
+  "careGlanceTitle": "देखभाल एक नज़र में",
+  "careGlanceSummary": "{total} में से {done} कार्य पूरे हुए",
+  "@careGlanceSummary": {
+    "placeholders": {
+      "done": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "careGlanceWeekTitle": "पिछले 7 दिनों में पूरे हुए कार्य",
+  "careGlanceWeekChartLabel": "पिछले 7 दिनों में हर दिन पूरे हुए कार्यों का बार चार्ट",
+  "careGlanceWeekSummary": "पिछले 7 दिनों में {count} कार्य पूरे हुए",
+  "@careGlanceWeekSummary": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "careGlanceEmpty": "अभी दिखाने के लिए कोई कार्य नहीं है।",
+  "careGlanceChartLabel": "कार्य स्थिति: करना है {todo}, हो गया {done}, छोड़ा गया {skipped}, समय सीमा पार {overdue}",
+  "@careGlanceChartLabel": {
+    "placeholders": {
+      "todo": {"type": "int"},
+      "done": {"type": "int"},
+      "skipped": {"type": "int"},
+      "overdue": {"type": "int"}
+    }
+  },
+  "summaryTitle": "देखभाल सारांश",
+  "summaryShareAction": "सारांश साझा करें",
+  "summaryCopyAction": "कॉपी करें",
+  "summaryCopiedMessage": "सारांश कॉपी हो गया। इसे व्हाट्सऐप में चिपकाकर भेजें।",
+  "summaryExcludesNote": "अटैचमेंट और केवल देखभालकर्ता वाले रिकॉर्ड इसमें शामिल नहीं हैं। इसे आप खुद व्हाट्सऐप में भेजें। ऐप आपकी ओर से कुछ नहीं भेजता।",
+  "summaryRecipientLine": "देखभाल प्राप्तकर्ता: {name}",
+  "@summaryRecipientLine": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "summaryPeriodLine": "अवधि: {from} से {to}",
+  "@summaryPeriodLine": {
+    "placeholders": {
+      "from": {"type": "String"},
+      "to": {"type": "String"}
+    }
+  },
+  "summarySectionAppointments": "आने वाली अपॉइंटमेंट",
+  "summaryAppointmentLine": "{when} - {doctor}",
+  "@summaryAppointmentLine": {
+    "placeholders": {
+      "when": {"type": "String"},
+      "doctor": {"type": "String"}
+    }
+  },
+  "summarySectionTasks": "लंबित और समय सीमा पार कार्य",
+  "summaryTaskLine": "{name}: {title} (समय सीमा {due})",
+  "@summaryTaskLine": {
+    "placeholders": {
+      "name": {"type": "String"},
+      "title": {"type": "String"},
+      "due": {"type": "String"}
+    }
+  },
+  "summaryTaskOverdueLine": "{name}: {title} (समय सीमा पार, समय सीमा {due})",
+  "@summaryTaskOverdueLine": {
+    "placeholders": {
+      "name": {"type": "String"},
+      "title": {"type": "String"},
+      "due": {"type": "String"}
+    }
+  },
+  "summarySectionMedicines": "दवाइयाँ जिन्हें रिफ़िल करना है",
+  "summaryMedicineLine": "{name}: {status}",
+  "@summaryMedicineLine": {
+    "placeholders": {
+      "name": {"type": "String"},
+      "status": {"type": "String"}
+    }
+  },
+  "summarySectionRecords": "हाल के रिकॉर्ड",
+  "summaryRecordLine": "{date} {title}",
+  "@summaryRecordLine": {
+    "placeholders": {
+      "date": {"type": "String"},
+      "title": {"type": "String"}
+    }
+  },
+  "summarySectionActivity": "हाल की गतिविधि",
+  "summaryActivityLine": "{when} {action} ({name})",
+  "@summaryActivityLine": {
+    "placeholders": {
+      "when": {"type": "String"},
+      "action": {"type": "String"},
+      "name": {"type": "String"}
+    }
+  },
+  "summaryNone": "कुछ नहीं",
+  "genericError": "कुछ गलत हो गया। कृपया फिर से कोशिश करें।",
+  "ocrTitle": "रिकॉर्ड स्कैन करें",
+  "ocrIntro": "पर्चे या रिपोर्ट की फ़ोटो लें, या गैलरी से चुनें। पाठ इसी फ़ोन पर पढ़ा जाता है।",
+  "ocrCamera": "कैमरा",
+  "ocrGallery": "गैलरी",
+  "ocrProcessing": "पाठ पढ़ा जा रहा है...",
+  "ocrNeedsConsent": "फ़ोटो से पाठ पढ़ने के लिए आपकी सहमति चाहिए। सेटिंग्स में 'दस्तावेज़ों की तस्वीरों से लिखा हुआ पाठ पढ़ें (OCR)' चालू करें, फिर दोबारा कोशिश करें।",
+  "ocrFailed": "इस तस्वीर से कोई पाठ नहीं पढ़ा जा सका। साफ़ तस्वीर लें, या रिकॉर्ड खुद भरें।",
+  "ocrEnterManually": "खुद भरें",
+  "ocrReviewTitle": "स्कैन किया गया पाठ जाँचें",
+  "ocrTextLabel": "तस्वीर से पढ़ा गया पाठ (आप इसे बदल सकते हैं)",
+  "ocrSuggestedDates": "पाठ में मिली तारीखें (उपयोग करने के लिए एक पर टैप करें)",
+  "ocrSave": "रिकॉर्ड सहेजें",
+  "ocrSaved": "स्कैन से रिकॉर्ड सहेजा गया",
+  "glanceChartToggle": "चार्ट में दिखाएँ",
+  "glanceTableToggle": "तालिका में दिखाएँ",
+  "glanceTableMedicine": "दवा",
+  "glanceTableDaysLeft": "बचे दिन",
+  "glanceTableRefillAt": "दोबारा लें (दिन)",
+  "glanceMedicinesTitle": "दवाओं का स्टॉक",
+  "glanceMedicinesSummary": "{total} में से {low} दवाओं को दोबारा लेने की ज़रूरत है",
+  "@glanceMedicinesSummary": {
+    "placeholders": {
+      "low": {"type": "int"},
+      "total": {"type": "int"}
+    }
+  },
+  "glanceMedicinesChartLabel": "{total} दवाओं के बचे दिन, जिनमें से {low} दोबारा लेने के स्तर से नीचे हैं",
+  "@glanceMedicinesChartLabel": {
+    "placeholders": {
+      "total": {"type": "int"},
+      "low": {"type": "int"}
+    }
+  },
+  "glanceMedicineRefill": "दोबारा लें",
+  "glanceMedicineMarkerLabel": "पतली रेखा हर दवा के दोबारा लेने के स्तर को दिखाती है।",
+  "glanceNoMedicineData": "{count} दवाओं में रोज़ का उपयोग नहीं भरा गया है, इसलिए वे चार्ट में नहीं हैं।",
+  "@glanceNoMedicineData": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  }
+}
