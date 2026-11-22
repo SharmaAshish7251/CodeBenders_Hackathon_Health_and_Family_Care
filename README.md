@@ -2,6 +2,7 @@
 
 A Flutter app that lets a family share the care of an elderly relative: care tasks, medicines, appointments, health records, and a shared timeline, all kept on the device. The app is available in English and Hindi.
 
+
 ## Features
 
 - **Onboarding**: three intro cards explaining the shared family hub, WhatsApp care summaries, and offline-first privacy.
